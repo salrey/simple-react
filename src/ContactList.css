@@ -1,0 +1,13 @@
+.ContactList {
+    font-family: cursive;
+    margin: 50px;
+    border: 8px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.ContactList ul {
+    list-style: none;
+    padding: 10px;
+}
+

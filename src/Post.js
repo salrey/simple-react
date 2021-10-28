@@ -1,3 +1,5 @@
+import "./Post.css"
+
 const postInfo = {
     title: "Sample Post Title",
     imageLink: "https://www.stockvault.net/data/2007/03/01/100169/preview16.jpg",
@@ -6,7 +8,7 @@ const postInfo = {
   
   const Post = () => {
     return (
-      <div>
+      <div className="Post-Div">
         <p>{postInfo.title}</p>                
         <img src={postInfo.imageLink} alt='post' width='200' height='200'></img>
         <p>{postInfo.description}</p>

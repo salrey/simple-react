@@ -4,10 +4,10 @@ import Feed from './Feed';
 
 function App() {
   return (
-    <>
+    <div className='App-Div'>
       <Feed />
       <ContactList />
-    </>
+    </div>
   );
 }
 
