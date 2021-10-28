@@ -1,9 +1,13 @@
 import './App.css';
 import ContactList from './ContactList';
+import Feed from './Feed';
 
 function App() {
   return (
-    <ContactList />
+    <>
+      <Feed />
+      <ContactList />
+    </>
   );
 }
 
